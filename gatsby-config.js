@@ -26,7 +26,7 @@ module.exports = {
     {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
-            repositoryName: 'prist', shubhro
+            repositoryName: 'shubhro'
             linkResolver: () => post => `/${post.uid}`,
         }
     },
